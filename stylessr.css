@@ -1,0 +1,45 @@
+.media-row {
+	background-color: gray;
+	padding: 10px;
+}
+.p-row {
+	background-color: lightgray;
+	padding: 10px;
+}
+.device-row {
+	background-color: gold;
+	padding: 10px;
+}
+@media only screen and (max-width: 480px) {
+	.desktop {
+		display: none;
+	}
+	.tablet {
+		display: none;
+	}
+	.phone {
+		display: block;
+	}
+}
+@media only screen and (min-width: 481px) {
+	.desktop {
+		display: none;
+	}
+	.phone {
+		display: none;
+	}
+	.tablet {
+		display: block;
+	}
+}
+@media only screen and (min-width: 1024px) {
+	.tablet {
+		display: none;
+	}
+	.phone {
+		display: none;
+	}
+	.desktop {
+		display: block;
+	}
+}
